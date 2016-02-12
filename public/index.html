@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" type="image/png" href="" />
+        <title>Meteo</title>
+        
+        <!-- Fonts Google -->
+        <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- AngularJS -->
+        <script src="js/libs/angular.min.js"></script>
+        <script src="js/libs/angular-route.min.js"></script>
+
+        <script src="js/controllers/mainController.js"></script>
+        <script src="js/services/listVilleService.js"></script>
+
+        <script src="js/app.js"></script>
+
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+    </head>
+    <body>
+
+
+        <div class="container">
+            <ng-view></ng-view>
+    <footer>    </div>
+        <div class="footer-links">
+                    <p>Les plages du Pays Basque © 2016 - Aizkoa Arano</p>
+        </div>
+    </footer>
+    </body>
+</html>
